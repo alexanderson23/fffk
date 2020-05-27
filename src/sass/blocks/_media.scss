@@ -47,6 +47,21 @@
 			margin-top: 15px;
 		}
 	}
+	.advantages{
+		min-height: 430px;
+		.title{
+			font-size: 28px;
+		}
+		.adv{
+			&__descr{
+				font-size: 13px;
+				margin-top: 20px;
+			}
+			&__item{
+				margin-top: 55px;
+			}
+		}
+	}
 }
 @media(max-width:767px){
 	.header{
@@ -87,6 +102,19 @@
 			}
 		}
 	}
+	.advantages{
+		padding: 55px 0 78px;
+		min-height: 360px;
+		.adv{
+			&__descr{
+				font-size: 12px;
+				margin-top: 12px;
+			}
+			&__subheader{
+				font-size: 17px;
+			}
+		}
+	}
 }
 @media(max-width:575px){
 	.promo{		
@@ -102,10 +130,15 @@
 				margin-top: 5px;	
 			}	
 		}	
+		&__wrapper{
+			align-items: center;
+		}
 		&__header{
+			text-align: center;
 			font-size: 35px;
 		}
 		&__subheader{
+			text-align: center;
 			font-size: 15px;
 			margin-top: 0px;
 		}
@@ -124,6 +157,21 @@
 		&__link{
 			font-size: 14px;
 			margin-top: 13px;
+		}
+	}
+	.advantages{
+		.title{
+			font-size: 25px;
+		}
+		.adv{
+			flex-wrap: wrap;
+			&__subheader{
+				margin-top: 25px;
+			}
+			.adv__item{
+				max-width:320px;
+				margin-top: 50px;
+			}
 		}
 	}
 }

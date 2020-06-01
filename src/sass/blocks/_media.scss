@@ -49,9 +49,7 @@
 	}
 	.advantages{
 		min-height: 430px;
-		.title{
-			font-size: 28px;
-		}
+
 		.adv{
 			&__descr{
 				font-size: 13px;
@@ -59,6 +57,24 @@
 			}
 			&__item{
 				margin-top: 55px;
+			}
+		}
+	}
+	.title{
+		font-size: 26px;
+	}
+	.consultation{
+		min-height: 600px;
+		&__descr{
+			font-size: 18px;
+		}
+		.feed-form{
+			width: 280px;
+			input{
+				height: 45px;
+			}
+			.button_submit{
+				height: 50px;
 			}
 		}
 	}
@@ -115,8 +131,29 @@
 			}
 		}
 	}
+	.consultation{
+		min-height: 570px;
+		&__descr{
+			font-size: 16px;
+			text-align: center;
+		}
+		.title_left{
+			text-align: center;
+			font-size: 25px;
+		}
+		.feed-form{
+			width: 270px;
+			margin: 0 auto;
+			margin-top: 36px;
+			input{
+				height: 45px;
+			}
+			.button_submit{
+				height: 50px;
+			}
+		}
 }
-@media(max-width:575px){
+@media(max-width:575px){	
 	.promo{		
 		.header{
 			flex-wrap: wrap;
@@ -158,20 +195,40 @@
 			font-size: 14px;
 			margin-top: 13px;
 		}
-	}
-	.advantages{
-		.title{
-			font-size: 25px;
+}
+.advantages{
+
+	.adv{	
+		flex-wrap: wrap;
+		justify-content: center;
+		&__subheader{
+			margin-top: 25px;
 		}
-		.adv{
-			flex-wrap: wrap;
-			&__subheader{
-				margin-top: 25px;
+		.adv__item{
+			max-width:320px;
+			margin-top: 50px;
+		}
+	}
+}
+.title{
+	font-size: 25px;
+}
+	.consultation{
+		min-height: 540px;
+		.feed-form{
+			width: 250px;
+			input{
+			height: 40px;
 			}
-			.adv__item{
-				max-width:320px;
-				margin-top: 50px;
+			.button_submit{
+				height: 45px;
 			}
+		}
+		&__descr{
+			font-size: 15px;
+		}
+		.title_left{
+			font-size: 21px;
 		}
 	}
 }

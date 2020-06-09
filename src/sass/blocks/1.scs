@@ -153,7 +153,7 @@
 			}
 		}
 }
-@media(max-width:575px){	
+@media(max-width:575px){
 	.promo{		
 		.header{
 			flex-wrap: wrap;
@@ -195,24 +195,24 @@
 			font-size: 14px;
 			margin-top: 13px;
 		}
-}
-.advantages{
+	}
+	.advantages{
 
-	.adv{	
-		flex-wrap: wrap;
-		justify-content: center;
-		&__subheader{
-			margin-top: 25px;
-		}
-		.adv__item{
-			max-width:320px;
-			margin-top: 50px;
+		.adv{	
+			flex-wrap: wrap;
+			justify-content: center;
+			&__subheader{
+				margin-top: 25px;
+			}
+			.adv__item{
+				max-width:320px;
+				margin-top: 50px;
+			}
 		}
 	}
-}
-.title{
-	font-size: 25px;
-}
+	.title{
+		font-size: 25px;
+	}
 	.consultation{
 		min-height: 540px;
 		.feed-form{
@@ -228,7 +228,6 @@
 			font-size: 15px;
 		}
 		.title_left{
-			font-size: 21px;
+			font-size: 21px;	
 		}
-	}
 }

@@ -1,0 +1,46 @@
+.feedback{
+    min-height: 940px;
+    .title{
+        margin-bottom: 70px;
+    }
+    .feedback__rewiew{
+        margin-bottom: 103px;
+        &-item{
+            display: flex;
+            img{
+                margin-right: 36px;
+                width: 169px;
+                height: 169px;
+            }
+        }
+        &_subtitle{
+            font-size: 18px;
+            font-weight: bold;
+            text-align: left;
+            color: #0d0d0d;
+        }
+        &_marathons{
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: left;
+            color: #646464;
+        }
+        &_descr{
+            display: block;
+            margin-top: 19px;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: left;
+            color: #0d0d0d;
+        }
+        span{
+            display: block;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: left;
+            color: #0d0d0d;
+        }
+    }
+}

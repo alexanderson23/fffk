@@ -16,7 +16,9 @@
     "url": "https://github.com/alexanderson23/Pulse-Step/issues"
   },
   "homepage": "https://github.com/alexanderson23/Pulse-Step#readme",
-  "dependencies": {},
+  "dependencies": {
+    "animate.css": "^4.1.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",

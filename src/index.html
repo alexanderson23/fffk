@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="CSS/slick.css"/>
+    <link rel="stylesheet" href="CSS/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -71,7 +73,7 @@
                         так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="adv__item">
-                    <img src="img/advantages/heart.png" alt="" class="adv__img">
+                    <img src="img/advantages/heart.png" alt="heart" class="adv__img adv__icon_animated">
                     <div class="adv__subheader">
                         <strong>Заботимся о здоровье</strong>
                     </div>
@@ -113,7 +115,7 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -127,7 +129,7 @@
                 </div>
               </div>
         </div>
-    </section>
+    </div>
 
     <section class="catalog">
         <div class="container">
@@ -620,7 +622,7 @@
                 отзывы клиентов
             </div>
             <div class="feedback__rewiew">
-                <div class="feedback__rewiew-item">
+                <div class="feedback__rewiew-item animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/reviews/1.png" alt="">
                     <div class="rewiew__descr">
                         <div class="feedback__rewiew_subtitle">
@@ -639,7 +641,7 @@
                 </div>
             </div>
             <div class="feedback__rewiew">
-                <div class="feedback__rewiew-item">
+                <div class="feedback__rewiew-item animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/reviews/2.png" alt="">
                     <div class="rewiew__descr">                    
                         <div class="feedback__rewiew_subtitle">
@@ -657,7 +659,7 @@
                 </div>
             </div>
             <div class="feedback__rewiew">
-                <div class="feedback__rewiew-item">
+                <div class="feedback__rewiew-item animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/reviews/3.png" alt="">
                     <div class="rewiew__descr">                    
                         <div class="feedback__rewiew_subtitle">
@@ -729,11 +731,16 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <a href="#up" class="pageup">
+        <img src="icons/up.svg" alt="up">
+    </a>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
